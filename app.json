@@ -1,0 +1,48 @@
+{
+  "expo": {
+    "name": "PostBuddy",
+    "slug": "PostBuddy",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "automatic",
+    "scheme": "your-app-scheme",
+    "primaryColor": "#ffffff",
+    "backgroundColor": "#00000000",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "notification": {
+      "icon": "./assets/icon.png"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.aryatechnologies.expotemplate"
+    },
+    "androidStatusBar": {},
+    "androidNavigationBar": {},
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-router"
+    ],
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "3aea271b-70c7-40dd-bdc6-b34a0acd2ba0"
+      }
+    },
+    "owner": "arya-technologies"
+  }
+}
